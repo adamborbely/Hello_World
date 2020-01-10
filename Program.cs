@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Hello_World
 {
@@ -12,17 +12,11 @@ namespace Hello_World
             }
             else
             {
-                bool first = true;
                 foreach (string element in args)
                 {
-                    if (first)
-                    {
-                        first = false;
-                    }
-                    else
-                    {
-                        Console.WriteLine("Hello " + element + "!");
-                    }
+
+                    Console.WriteLine("Hello " + element + "!");
+
                 }
 
             }
